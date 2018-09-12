@@ -1,0 +1,80 @@
+.table {
+  margin: auto;
+  margin-bottom: 3rem; }
+  .table thead {
+    background: #1684c1;
+    color: white; }
+    .table thead th {
+      min-width: 220px; }
+      .table thead th input {
+        display: inline-block;
+        width: 85%;
+        vertical-align: bottom;
+        background: #d2ecff;
+        color: #61afd0;
+        font-weight: 400;
+        border: 0; }
+        .table thead th input::placeholder {
+          color: #999; }
+      .table thead th button {
+        background: #8cc4f5;
+        border: 0;
+        padding: 0.7rem 1.2rem; }
+        .table thead th button:hover {
+          background: #4ea6f3; }
+      .table thead th .input-group-btn {
+        display: inline-block; }
+  .table tbody {
+    background: #e3eeff73; }
+    .table tbody tr:nth-child(even) {
+      transition: 0.2s; }
+      .table tbody tr:nth-child(even) td {
+        position: relative;
+        color: #5285a5ad; }
+        .table tbody tr:nth-child(even) td input {
+          width: 100%;
+          border: 0;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          padding-left: 0.8rem; }
+        .table tbody tr:nth-child(even) td .glyphicon {
+          cursor: pointer; }
+      .table tbody tr:nth-child(even):hover {
+        transition: 0.2s;
+        background-color: #48a9d75e; }
+    .table tbody tr:nth-child(odd) {
+      background: white;
+      transition: 0.2s; }
+      .table tbody tr:nth-child(odd):hover {
+        background-color: #48a9d75e;
+        transition: 0.2s; }
+      .table tbody tr:nth-child(odd) td {
+        color: #5285a5ad; }
+    .table tbody tr {
+      transition: 0.2s; }
+      .table tbody tr:hover {
+        transition: 0.2s;
+        transform: translateX(5px); }
+        .table tbody tr:hover td {
+          color: #5d88b7; }
+      .table tbody tr td {
+        transition: 0.2s ease-in-out; }
+        .table tbody tr td .glyphicon {
+          padding: 0.3rem; }
+        .table tbody tr td:hover {
+          background: #5d88b7;
+          color: white !important;
+          transition: 0.2s ease-in-out; }
+
+.border {
+  border: 1px solid #cecece; }
+
+.padding-1rem {
+  padding: 1rem; }
+
+.margin-bottom-2rem {
+  margin-bottom: 2rem; }

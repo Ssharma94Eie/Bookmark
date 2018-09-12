@@ -1,0 +1,77 @@
+.login-wrapper, .login-wrapper, .reset-wrapper, .change-password-container {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ccc;
+  background-size: cover;
+  background-image: url("/images/pearson.jpeg"); }
+  .login-wrapper::before, .login-wrapper::before, .reset-wrapper::before, .change-password-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); }
+  .login-wrapper .login-box, .login-wrapper .signup-box, .login-wrapper .forgot-password-container, .login-wrapper .reset-box, .login-wrapper .change-password-box, .login-wrapper .login-box, .login-wrapper .signup-box, .login-wrapper .forgot-password-container, .login-wrapper .reset-box, .login-wrapper .change-password-box, .reset-wrapper .login-box, .reset-wrapper .signup-box, .reset-wrapper .forgot-password-container, .reset-wrapper .reset-box, .reset-wrapper .change-password-box, .change-password-container .login-box, .change-password-container .signup-box, .change-password-container .forgot-password-container, .change-password-container .reset-box, .change-password-container .change-password-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.37);
+    padding: 5rem;
+    padding-top: 2rem; }
+    .login-wrapper .login-box a, .login-wrapper .signup-box a, .login-wrapper .forgot-password-container a, .login-wrapper .reset-box a, .login-wrapper .change-password-box a, .login-wrapper .login-box a, .login-wrapper .signup-box a, .login-wrapper .forgot-password-container a, .login-wrapper .reset-box a, .login-wrapper .change-password-box a, .reset-wrapper .login-box a, .reset-wrapper .signup-box a, .reset-wrapper .forgot-password-container a, .reset-wrapper .reset-box a, .reset-wrapper .change-password-box a, .change-password-container .login-box a, .change-password-container .signup-box a, .change-password-container .forgot-password-container a, .change-password-container .reset-box a, .change-password-container .change-password-box a {
+      color: white; }
+    .login-wrapper .login-box .message-label, .login-wrapper .signup-box .message-label, .login-wrapper .forgot-password-container .message-label, .login-wrapper .reset-box .message-label, .login-wrapper .change-password-box .message-label, .login-wrapper .login-box .message-label, .login-wrapper .signup-box .message-label, .login-wrapper .forgot-password-container .message-label, .login-wrapper .reset-box .message-label, .login-wrapper .change-password-box .message-label, .reset-wrapper .login-box .message-label, .reset-wrapper .signup-box .message-label, .reset-wrapper .forgot-password-container .message-label, .reset-wrapper .reset-box .message-label, .reset-wrapper .change-password-box .message-label, .change-password-container .login-box .message-label, .change-password-container .signup-box .message-label, .change-password-container .forgot-password-container .message-label, .change-password-container .reset-box .message-label, .change-password-container .change-password-box .message-label {
+      margin-top: 1rem;
+      color: #654321;
+      font-weight: 400; }
+    .login-wrapper .login-box .login-title, .login-wrapper .signup-box .login-title, .login-wrapper .forgot-password-container .login-title, .login-wrapper .reset-box .login-title, .login-wrapper .change-password-box .login-title, .login-wrapper .login-box .login-title, .login-wrapper .signup-box .login-title, .login-wrapper .forgot-password-container .login-title, .login-wrapper .reset-box .login-title, .login-wrapper .change-password-box .login-title, .reset-wrapper .login-box .login-title, .reset-wrapper .signup-box .login-title, .reset-wrapper .forgot-password-container .login-title, .reset-wrapper .reset-box .login-title, .reset-wrapper .change-password-box .login-title, .change-password-container .login-box .login-title, .change-password-container .signup-box .login-title, .change-password-container .forgot-password-container .login-title, .change-password-container .reset-box .login-title, .change-password-container .change-password-box .login-title {
+      color: aliceblue;
+      margin-bottom: 3rem; }
+    .login-wrapper .login-box .remember-label, .login-wrapper .signup-box .remember-label, .login-wrapper .forgot-password-container .remember-label, .login-wrapper .reset-box .remember-label, .login-wrapper .change-password-box .remember-label, .login-wrapper .login-box .remember-label, .login-wrapper .signup-box .remember-label, .login-wrapper .forgot-password-container .remember-label, .login-wrapper .reset-box .remember-label, .login-wrapper .change-password-box .remember-label, .reset-wrapper .login-box .remember-label, .reset-wrapper .signup-box .remember-label, .reset-wrapper .forgot-password-container .remember-label, .reset-wrapper .reset-box .remember-label, .reset-wrapper .change-password-box .remember-label, .change-password-container .login-box .remember-label, .change-password-container .signup-box .remember-label, .change-password-container .forgot-password-container .remember-label, .change-password-container .reset-box .remember-label, .change-password-container .change-password-box .remember-label {
+      font-weight: 400;
+      color: white; }
+    .login-wrapper .login-box #remember, .login-wrapper .signup-box #remember, .login-wrapper .forgot-password-container #remember, .login-wrapper .reset-box #remember, .login-wrapper .change-password-box #remember, .login-wrapper .login-box #remember, .login-wrapper .signup-box #remember, .login-wrapper .forgot-password-container #remember, .login-wrapper .reset-box #remember, .login-wrapper .change-password-box #remember, .reset-wrapper .login-box #remember, .reset-wrapper .signup-box #remember, .reset-wrapper .forgot-password-container #remember, .reset-wrapper .reset-box #remember, .reset-wrapper .change-password-box #remember, .change-password-container .login-box #remember, .change-password-container .signup-box #remember, .change-password-container .forgot-password-container #remember, .change-password-container .reset-box #remember, .change-password-container .change-password-box #remember {
+      float: right; }
+    .login-wrapper .login-box .login-btn, .login-wrapper .signup-box .login-btn, .login-wrapper .forgot-password-container .login-btn, .login-wrapper .reset-box .login-btn, .login-wrapper .change-password-box .login-btn, .login-wrapper .login-box .login-btn, .login-wrapper .signup-box .login-btn, .login-wrapper .forgot-password-container .login-btn, .login-wrapper .reset-box .login-btn, .login-wrapper .change-password-box .login-btn, .reset-wrapper .login-box .login-btn, .reset-wrapper .signup-box .login-btn, .reset-wrapper .forgot-password-container .login-btn, .reset-wrapper .reset-box .login-btn, .reset-wrapper .change-password-box .login-btn, .change-password-container .login-box .login-btn, .change-password-container .signup-box .login-btn, .change-password-container .forgot-password-container .login-btn, .change-password-container .reset-box .login-btn, .change-password-container .change-password-box .login-btn {
+      float: right; }
+    .login-wrapper .login-box .submit-btn, .login-wrapper .signup-box .submit-btn, .login-wrapper .forgot-password-container .submit-btn, .login-wrapper .reset-box .submit-btn, .login-wrapper .change-password-box .submit-btn, .login-wrapper .login-box .submit-btn, .login-wrapper .signup-box .submit-btn, .login-wrapper .forgot-password-container .submit-btn, .login-wrapper .reset-box .submit-btn, .login-wrapper .change-password-box .submit-btn, .reset-wrapper .login-box .submit-btn, .reset-wrapper .signup-box .submit-btn, .reset-wrapper .forgot-password-container .submit-btn, .reset-wrapper .reset-box .submit-btn, .reset-wrapper .change-password-box .submit-btn, .change-password-container .login-box .submit-btn, .change-password-container .signup-box .submit-btn, .change-password-container .forgot-password-container .submit-btn, .change-password-container .reset-box .submit-btn, .change-password-container .change-password-box .submit-btn {
+      float: left; }
+    .login-wrapper .login-box input, .login-wrapper .signup-box input, .login-wrapper .forgot-password-container input, .login-wrapper .reset-box input, .login-wrapper .change-password-box input, .login-wrapper .login-box input, .login-wrapper .signup-box input, .login-wrapper .forgot-password-container input, .login-wrapper .reset-box input, .login-wrapper .change-password-box input, .reset-wrapper .login-box input, .reset-wrapper .signup-box input, .reset-wrapper .forgot-password-container input, .reset-wrapper .reset-box input, .reset-wrapper .change-password-box input, .change-password-container .login-box input, .change-password-container .signup-box input, .change-password-container .forgot-password-container input, .change-password-container .reset-box input, .change-password-container .change-password-box input {
+      padding-left: 3rem; }
+    .login-wrapper .login-box .glyphicon, .login-wrapper .signup-box .glyphicon, .login-wrapper .forgot-password-container .glyphicon, .login-wrapper .reset-box .glyphicon, .login-wrapper .change-password-box .glyphicon, .login-wrapper .login-box .glyphicon, .login-wrapper .signup-box .glyphicon, .login-wrapper .forgot-password-container .glyphicon, .login-wrapper .reset-box .glyphicon, .login-wrapper .change-password-box .glyphicon, .reset-wrapper .login-box .glyphicon, .reset-wrapper .signup-box .glyphicon, .reset-wrapper .forgot-password-container .glyphicon, .reset-wrapper .reset-box .glyphicon, .reset-wrapper .change-password-box .glyphicon, .change-password-container .login-box .glyphicon, .change-password-container .signup-box .glyphicon, .change-password-container .forgot-password-container .glyphicon, .change-password-container .reset-box .glyphicon, .change-password-container .change-password-box .glyphicon {
+      top: 50%;
+      transform: translateY(-50%);
+      left: 1rem;
+      color: cadetblue; }
+    .login-wrapper .login-box .error, .login-wrapper .signup-box .error, .login-wrapper .forgot-password-container .error, .login-wrapper .reset-box .error, .login-wrapper .change-password-box .error, .login-wrapper .login-box .error, .login-wrapper .signup-box .error, .login-wrapper .forgot-password-container .error, .login-wrapper .reset-box .error, .login-wrapper .change-password-box .error, .reset-wrapper .login-box .error, .reset-wrapper .signup-box .error, .reset-wrapper .forgot-password-container .error, .reset-wrapper .reset-box .error, .reset-wrapper .change-password-box .error, .change-password-container .login-box .error, .change-password-container .signup-box .error, .change-password-container .forgot-password-container .error, .change-password-container .reset-box .error, .change-password-container .change-password-box .error {
+      color: red;
+      font-weight: 500;
+      font-size: 16px;
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translate(-50%, -50%); }
+    .login-wrapper .login-box .already-member, .login-wrapper .login-box .forgot-password, .login-wrapper .signup-box .already-member, .login-wrapper .signup-box .forgot-password, .login-wrapper .forgot-password-container .already-member, .login-wrapper .forgot-password-container .forgot-password, .login-wrapper .reset-box .already-member, .login-wrapper .reset-box .forgot-password, .login-wrapper .change-password-box .already-member, .login-wrapper .change-password-box .forgot-password, .login-wrapper .login-box .already-member, .login-wrapper .login-box .forgot-password, .login-wrapper .signup-box .already-member, .login-wrapper .signup-box .forgot-password, .login-wrapper .forgot-password-container .already-member, .login-wrapper .forgot-password-container .forgot-password, .login-wrapper .reset-box .already-member, .login-wrapper .reset-box .forgot-password, .login-wrapper .change-password-box .already-member, .login-wrapper .change-password-box .forgot-password, .reset-wrapper .login-box .already-member, .reset-wrapper .login-box .forgot-password, .reset-wrapper .signup-box .already-member, .reset-wrapper .signup-box .forgot-password, .reset-wrapper .forgot-password-container .already-member, .reset-wrapper .forgot-password-container .forgot-password, .reset-wrapper .reset-box .already-member, .reset-wrapper .reset-box .forgot-password, .reset-wrapper .change-password-box .already-member, .reset-wrapper .change-password-box .forgot-password, .change-password-container .login-box .already-member, .change-password-container .login-box .forgot-password, .change-password-container .signup-box .already-member, .change-password-container .signup-box .forgot-password, .change-password-container .forgot-password-container .already-member, .change-password-container .forgot-password-container .forgot-password, .change-password-container .reset-box .already-member, .change-password-container .reset-box .forgot-password, .change-password-container .change-password-box .already-member, .change-password-container .change-password-box .forgot-password {
+      font-size: 14px;
+      padding: 0.5rem;
+      vertical-align: sub;
+      padding-left: 0; }
+  .login-wrapper .forgot-password-container, .login-wrapper .forgot-password-container, .reset-wrapper .forgot-password-container, .change-password-container .forgot-password-container {
+    min-width: 300px; }
+
+.disabled {
+  background: #ccc;
+  color: white;
+  pointer-events: none; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }

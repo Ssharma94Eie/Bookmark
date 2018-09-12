@@ -1,0 +1,99 @@
+.login-wrapper, .login-wrapper, .reset-wrapper, .change-password-container{
+	position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #ccc;
+  background-size: cover;
+  background-image: url("/images/pearson.jpeg");
+  &::before{
+    	content: "";
+    	position: absolute;
+    	top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;
+    	background: rgba(0,0,0,0.3);
+    }
+  .login-box, .signup-box, .forgot-password-container, .reset-box, .change-password-box {
+  	position: absolute;
+  	left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    // border: 1px solid #00c4ff;	
+    background: rgba(0, 0, 0, 0.37);
+    padding: 5rem;
+    padding-top: 2rem;
+
+    a{
+    	color: white;
+    }
+    .message-label {
+    	margin-top: 1rem;
+	    color: #654321;
+	    font-weight: 400;
+    }
+    .login-title{
+    	color: aliceblue;
+    	margin-bottom: 3rem;
+    }
+    .remember-label {
+    	// float: right;
+    	font-weight: 400;
+    	color: white;
+    }
+    #remember {
+    	float: right;
+    }
+    .login-btn{
+    	float: right;
+    }
+    .submit-btn {
+    	float: left;
+    }
+    input{
+    	padding-left: 3rem;
+    }
+
+    .glyphicon{
+    	top: 50%;
+    	transform: translateY(-50%);
+    	left: 1rem;
+    	color: cadetblue;
+    }
+    .error{
+    	color: red;
+    	font-weight: 500;
+    	font-size: 16px;
+    	position: absolute;
+	    top: 50%;
+	    right: 0;
+	    transform: translate(-50%, -50%);
+    }
+
+    .already-member, .forgot-password {
+    	font-size: 14px;
+	    padding: 0.5rem;
+	    vertical-align: sub;
+	    padding-left: 0;
+    }
+  }
+  .forgot-password-container{
+  	min-width: 300px;
+  }
+}
+
+.disabled {
+	background: #ccc;
+	color: white;
+	pointer-events: none;
+}
+
+.relative{
+  position: relative;
+}
+.absolute{
+  position: absolute;
+}
